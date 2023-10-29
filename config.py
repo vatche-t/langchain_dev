@@ -11,7 +11,7 @@ load_dotenv(f"{parent_path}/.env")
 
 
 OPENAI_API_KEY: str = os.environ["OPENAI_API_KEY"]
-
+SERPAPI_API_KEY: str = os.environ["SERPAPI_API_KEY"]
 
 # MAX_PROCESS_LIFE_TIME = os.environ["MAX_PROCESS_LIFE_TIME"]
 # PROCESS_RESTART_DELAY_TIME = os.environ["PROCESS_RESTART_DELAY_TIME"]
