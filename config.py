@@ -10,8 +10,8 @@ parent_path = Path(__file__).parent.absolute()
 load_dotenv(f"{parent_path}/.env")
 
 
-POSTGRES = os.environ["OPENAPI"]
+OPENAI_API_KEY: str = os.environ["OPENAI_API_KEY"]
 
 
-MAX_PROCESS_LIFE_TIME = os.environ["MAX_PROCESS_LIFE_TIME"]
-PROCESS_RESTART_DELAY_TIME = os.environ["PROCESS_RESTART_DELAY_TIME"]
+# MAX_PROCESS_LIFE_TIME = os.environ["MAX_PROCESS_LIFE_TIME"]
+# PROCESS_RESTART_DELAY_TIME = os.environ["PROCESS_RESTART_DELAY_TIME"]
