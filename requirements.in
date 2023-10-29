@@ -1,0 +1,7 @@
+requests
+python-dotenv
+loguru
+pytest
+langchain
+openai
+pandas
